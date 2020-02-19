@@ -4,7 +4,7 @@ import os
 import sys
 from tqdm import tqdm
 
-datadir_filenames = Path('./images/processed_images/')
+datadir_filenames = Path('./images/toy_processed_images/')
 
 for (directory, _ , image_names) in os.walk(datadir_filenames):
         for image_name in tqdm(image_names):
