@@ -4,7 +4,7 @@ import sys
 
 W1 = int(sys.argv[1]) #input image width
 H1 = int(sys.argv[2]) #input image height
-D1 = int(3) #No. of channels
+D1 = int(1) #No. of channels
 
 K = int(sys.argv[3]) #No. of filters
 F = int(sys.argv[4]) #Spatial extent
