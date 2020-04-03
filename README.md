@@ -26,3 +26,5 @@ Here we do give a brief description about the content of the repository without 
  3. [**Augmentation,Generators,Architectures_2_colab**](https://github.com/reach2sayan/Bengali-Grapheme_DATA2040/blob/master/notebooks/Augmentation%2CGenerators%2CArchitectures_2_colab.ipynb) - Main notebook. Contains code for different architectures that were tried - AlexNet, BengaliNet (the kernel shared on piazza), ResNet (mini), InceptionNet (mini), InceptualNet (Inception + Residual net), FractalNet and in-house DenseNet (mini)
  
 Note. there are redundant copies of similar named files. We had to shift to Google Colab and decided to load entire pre-processed dataset to RAM instead of input pipelines, hence the redundancy.
+
+For further queries you can email me at reach2sayan@gmail.com
