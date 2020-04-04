@@ -23,8 +23,10 @@ Here we do give a brief description about the content of the repository without 
 
  1. [**Image Processing**](https://github.com/reach2sayan/Bengali-Grapheme_DATA2040/blob/master/notebooks/Image%20processing.ipynb) - Contains code to De-Noise, Threshold and Crop based on Contours.
  2. [**Data Distribution**](https://github.com/reach2sayan/Bengali-Grapheme_DATA2040/blob/master/notebooks/Data%20Distribution.ipynb) - Primary EDA notebook. Contains all analysis of distribution and balance of different target classes in the dataset
- 3. [**Augmentation,Generators,Architectures_2_colab**](https://github.com/reach2sayan/Bengali-Grapheme_DATA2040/blob/master/notebooks/Augmentation%2CGenerators%2CArchitectures_2_colab.ipynb) - Main notebook. Contains code for different architectures that were tried - AlexNet, BengaliNet (the kernel shared on piazza), ResNet (mini), InceptionNet (mini), InceptualNet (Inception + Residual net), FractalNet and in-house DenseNet (mini)
+ 3. [**Augmentation,Generators,Architectures_2_colab**](https://github.com/reach2sayan/Bengali-Grapheme_DATA2040/blob/master/notebooks/Augmentation%2CGenerators%2CArchitectures_2_colab.ipynb) - Main notebook. Contains code for different architectures that were tried - AlexNet, BengaliNet (the kernel shared on piazza), ResNet (mini), InceptionNet (mini), InceptualNet (Inception + Residual net), FractalNet and DenseNet (mini) (all in-house implementations)
  
 Note. there are redundant copies of similar named files. We had to shift to Google Colab and decided to load entire pre-processed dataset to RAM instead of input pipelines, hence the redundancy.
+
+Also, in the notebook [**Augmentation,Generators,Architectures**](https://github.com/reach2sayan/Bengali-Grapheme_DATA2040/blob/master/notebooks/Augmentation%2CGenerators%2CArchitectures.ipynb), we have the baseline models tested on ResNet50, VGGNet, XceptionNet and InceptionNet with pretrained weights.
 
 For further queries you can email me at reach2sayan@gmail.com
